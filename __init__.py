@@ -1,3 +1,3 @@
 import character
 import world
-import gui
+from gui import tk
