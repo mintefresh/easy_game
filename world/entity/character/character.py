@@ -4,10 +4,10 @@ within world.
 """
 from abc import ABC
 
-from .. import entity.Entity
+from .. import entity
 
 
-class Character(Entity):
+class Character(entity.Entity):
     """
     Abstract class representing a character within a world.
     """

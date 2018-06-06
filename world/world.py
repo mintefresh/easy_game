@@ -52,8 +52,9 @@ class World(ABC):
         """
         Adds an object to the world's data dictionaries.
         """
+        obj_class = 
         for dictionary in self._dictionaries:
-
+            if issubclass(obj.__class__, dictionary.get("_class")):
 
 
 

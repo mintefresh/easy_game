@@ -1,1 +1,1 @@
-from character import *
+from .character import *

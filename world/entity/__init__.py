@@ -1,1 +1,2 @@
-from character import Character
+from .character import *
+from .entity import *
